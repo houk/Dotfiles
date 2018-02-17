@@ -398,7 +398,7 @@ xnoremap & :&&<CR>
 " Center search results
 nnoremap n nzz
 nnoremap N Nzz
-cnoremap <expr> <CR> getcmdtype() =~ '[/?]' ? '<CR>zz' : '<CR>'
+" cnoremap <expr> <CR> getcmdtype() =~ '[/?]' ? '<CR>zz' : '<CR>'
 " And other motions
 nnoremap G Gzz
 nnoremap <C-u> <C-u>zz
